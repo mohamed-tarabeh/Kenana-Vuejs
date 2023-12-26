@@ -1,0 +1,28 @@
+.profile-guide .immm{
+    width: 200px;
+    border: solid 7px #ff7013;
+    border-radius: 50%;
+
+}
+.fa-message ,.fa-phone{
+    font-size: 25px;
+    color:  #ff7013;
+   
+}
+.btn-prof{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+}
+.tablee input,.tablee textarea{
+    font-size: 20px;
+    resize: none;
+    text-align: justify;
+    text-indent:0;
+    font-weight: bold;
+    overflow: hidden;
+}
+#info_div, #tour_div,#review_div{
+    display: none;
+}
+/* #review_div */

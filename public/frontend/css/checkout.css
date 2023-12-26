@@ -1,0 +1,52 @@
+.imm{
+    width: 90%;
+    height: 130px;
+    border-radius: 10%;
+}
+@media (max-width:970px) {
+    .imm{
+        width: 50%;
+    }
+    
+}
+.spa{
+    border: solid 1px #ff7013;
+    color: #ff7013;
+    padding: 5px 8px;
+    border-radius: 5px;
+   
+}
+.spa2{
+    color:#ff7013;
+}
+.spa2,.spa3{
+    font-size: 12px;
+    font-weight: 900;
+}
+.kena{
+    color:#ff7013;
+    font-weight: bolder;
+    
+}
+.pp{
+    font-size: 18px;
+    font-weight:500;
+}
+.fa-location,.spa4{
+font-size: 17px;
+}
+.fa-location{
+    color: #ff7013;
+}
+
+.back,.check-out{
+    font-size: 20px;
+    border: solid 2px #ff7013;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: #ff7013;
+  }
+  .check-out{
+    background-color: #ff7013;
+    color: white;
+  }

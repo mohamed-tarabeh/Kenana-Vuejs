@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+.gallery{
+    position: relative;
+}
+.show_all{
+    position: absolute;
+    bottom: 50px;
+    left: 80%;
+    width: 100%;
+
+}
+
+.btn_all{
+    background-color: rgb(253, 253, 249);
+    font-size: 20px;
+    
+}
+.btn_all:hover{
+    background-color:rgb(236, 236, 140) ;
+}
+.book{
+    max-height: 500px !important;
+}
+.book_btn{
+    background-color: #ff7013;
+    color: white;
+    border: none;
+    font-size: 25px;
+    
+}
+
+
+.book td{
+    font-size: 20px;
+
+
+}
+.choose{
+    font-size: 20px;
+    font-weight: bold;
+}
+.lab{
+    font-size: 14px;
+}
+ /* check hidden */
+ .target-div,.target-div2,.target-div3 {
+    display: none;
+    /* padding: 10px; */
+    /* background-color: #f0f0f0; */
+    /* margin-top: 10px; */
+  }
+  .back,.check-out{
+    font-size: 20px;
+    border: solid 2px #ff7013;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: #ff7013;
+  }
+  .check-out{
+    background-color: #ff7013;
+    color: white;
+  }

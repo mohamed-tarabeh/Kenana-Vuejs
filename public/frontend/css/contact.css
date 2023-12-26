@@ -1,0 +1,11 @@
+.orang-side{
+    background-color: #ff7013;
+    color: white;
+    height: 600px;
+}
+.orang-side  p, .orang-side i{
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+}

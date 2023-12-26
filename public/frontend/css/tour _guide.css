@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+ul{
+    font-size: 20px;
+}
+ul li{
+    padding-left: 20px;
+}
+.sign{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+.first_header_tour{
+    height: 400px;
+    border: solid 1px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+  
+   
+    /* background-size: auto; */
+    
+}
+.first_header_tour h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+
+}
+@media (max-width:800px) {
+    .first_header_tour{
+        background-position: center;
+       
+    }
+   
+ 
+
+
+}
+.srch{
+       background-color: orangered; 
+}
+input{
+    font-size: 20px;
+}
+
+.loc_ico,.date_ico{
+    font-size: 30px;
+    color: orangered;
+   
+}
+.where p{
+    font-size: 14px;
+}
+.btn_search1{
+    background-color: orangered;
+    color: #fff;
+    
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+.dream-text{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    
+}
+.dream-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.dream-text p{
+    font-weight: bolder;
+    color: white;
+    
+    
+
+}
+.card1{
+    width: 150px;
+  
+    
+}
+.card1 p{
+    margin-left: 30px;
+}
+.img-over1{
+    position: absolute;
+    top:0px;
+     width: 150px;
+     height: 180px;
+     transition: opacity 1s;
+     
+     
+}
+.card:hover .img-over1{
+    opacity: 1 !important;
+}
+/*  */
+
+
+
+.tour-img{
+    position: relative;
+    
+}
+
+
+.tour-img-over{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 80%;
+
+}
+
+
+
+.card-tour img{
+    max-height: 600px !important ;
+}
+.customize{
+    width: 100%;
+    position: relative;
+   
+    
+   
+}
+
+.customize img{
+    width: 100%;
+   
+ 
+    
+}
+.dream-text1{
+position: absolute;
+top: 20%;
+left: 60px;
+z-index: 9999;
+
+
+}
+
+
+.dream-text1 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.dream-text1 a{
+    color: orange;
+    font-weight: bold;
+}
+    
+/*  */
+/*  */
+
+.fa-star{
+    color: rgb(232, 217, 5);
+}
+
+
+.foot-div{
+    width: 70%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+ 
+}
+.foot li{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    font-size: 16px;
+
+}
+.social{
+    color: orangered;
+    font-size: 20px;
+}
+.foot p{
+    font-size: 13px;
+}
+/*  */
+/*  */
+/*  */
+/* tour_profile */
+.dropp{
+    background-color: #ffffff !important;
+}
+
+
+/*  */
+/*  */
+/* tour-gude */
+
+.im-guide{
+    width: 70px;
+}
+
+@media (max-width:800px) {
+    .customize .cust-img{
+    height: 200px;
+        
+    }
+}
+.dream-text1{
+position: absolute;
+top: 20%;
+left: 60px;
+z-index: 9999;
+
+
+}
+
+@media (max-width:990px) {
+    .dream-text1{
+        top: 10%;
+        left: 60px;
+        z-index: 9999;
+      
+        
+    }
+}
+
+
+.dream-text1 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+@media(max-width:990px) {
+    .dream-text1 h1{
+        font-size: 30px;
+    }
+}

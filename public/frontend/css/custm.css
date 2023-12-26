@@ -1,0 +1,35 @@
+.cust1  p{
+    font-size: 20px;
+}
+.fa-circle-check{
+    color: #ff7013;
+}
+.cust1 li{
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.cust2 label{
+    font-size: 20px;
+}
+.dd{
+    width: 90%;
+}
+.cust_btn{
+    
+    background-color: #ff7013;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.after_book{
+    width: 150px;
+}
+.bttn{
+    width: 80%;
+    background-color: #ff7013;
+    padding:15px ;
+    font-size: 20px;
+}
+.bttn:hover{
+    background-color: #ff7013;
+}

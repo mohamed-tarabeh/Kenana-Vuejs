@@ -1,0 +1,12 @@
+p{
+   font-size: 18px;
+   font-weight: 500;
+}
+.im_ava{
+    width: 90%;
+}
+/* @media (max-width:990) {
+    .im_ava{
+        width: 10%;
+    } 
+     */
