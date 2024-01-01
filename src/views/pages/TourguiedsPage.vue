@@ -541,37 +541,22 @@
   
 </template>
 
-<script>
+<script setup>
+import { ref,onMounted } from "vue";
+import axios from 'axios'
+
+const user= ref({})
 
 
-export default{
-  mounted() {
-    const script = document.createElement('script');
-    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js';
-    script.onload = () => {
-      // Code to run after jQuery is loaded
-      /* eslint-disable no-undef */
-      $('#show').click(function(){
-    $('#more_tour').slideToggle();
-    $('#show').hide();
-    $('#less').show();
-    });
-
-
-    /////////////////////
-
-    $('#less').click(function(){
-        $('#more_tour').slideUp(1000);
-        $('#show').show();
-        $('#less').hide();
-    
-        });
-      
-    };
-    document.head.appendChild(script);
-  },
-};
-
+onMounted(() => {
+    // productService.getProducts().then((data) => (products.value = data));
+   console.log("sac")
+    axios.get('/api/v1/tours?status=approved').then((res) => {
+  
+      // user.value = res.data.banners
+       user.value=res.data
+    })
+  })
 
 </script>
 
